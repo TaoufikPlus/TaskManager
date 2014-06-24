@@ -1,0 +1,12 @@
+<web-app>
+  <servlet>
+  <servlet-name>registeradmin</servlet-name>
+  <servlet-class>adminRegister</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>registeradmin</servlet-name>
+  <url-pattern>/radmin</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
